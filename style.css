@@ -1,0 +1,123 @@
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-color: #e0e8ff; 
+    height: 400px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 13px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33,3%);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+}
+
+.tarjeta{
+    grid-column: 2 / 3;
+    grid-row: 2 / 9;
+    background-color: #FFFFFF;
+    border-radius: 0.9em;
+    text-align: center;
+    min-width: 25em;
+    max-width: 25em;
+}
+
+.illustration-hero{
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    width: 100%;
+    max-width: 100%;
+    border-top-left-radius: 0.9em;
+    border-top-right-radius: 0.9em;
+}
+
+h1{
+    font-size: 20px;
+    color: #414141
+}
+
+.blanco{
+    padding-top: 0.7em;
+    padding-left: 2.4em;
+    padding-right: 2.4em;
+}
+
+.cuerpo{
+    font-weight: 500;
+    color: #7280a7;
+}
+
+.plan{
+    background-color: #f5f7ff;
+    display: grid;
+    grid-template-columns: 1fr, 3fr, 1fr;
+    grid-gap: 0px;
+    grid-auto-rows: 1fr;
+    align-items: center;
+    padding: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0em;
+    border-radius: 0.7em;
+}
+
+.notamusical {
+    grid-column: 1 / 2;
+    text-align: left;
+}
+
+.texto{
+    grid-column: 2 / 3;
+    text-align: left;
+}
+
+.cambiar{
+    grid-column: 3 / 4;
+    text-align: right;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.change{
+    color: #8211ec;
+    text-decoration: underline;
+}
+
+.pago{
+    background-color: #3829e0;
+    padding: 1em;
+    border-radius: 0.7em;
+    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+    color: #ffffff;
+    box-shadow: 0px 10px 15px 2px #3829e03b;
+    font-weight: 500;
+    font-size: 12px;
+    
+}
+
+.puntero:hover, .pago:hover{
+    cursor: pointer;
+}
+
+.cancelar{
+    padding-bottom: 2em;
+    font-weight: 500;
+    color: #7280a7;
+    font-size: 12px;
+}
+
+.arriba{
+    margin-bottom: 0.5px;
+    font-weight: 900;
+}
+
+.abajo{
+    margin-top: 0.5px;
+    font-weight: 500;
+    color: #7280a7;
+}
